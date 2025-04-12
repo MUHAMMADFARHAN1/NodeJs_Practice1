@@ -20,3 +20,7 @@ var listOfNumbers = "";
 
 listOfNumbers = _.chunk(numbers, 2);
 console.log(listOfNumbers);
+
+var list = [1, 2, 3, 4, 5];
+var result = _.shuffle(list);
+console.log(result);
