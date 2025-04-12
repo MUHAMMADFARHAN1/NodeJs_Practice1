@@ -1,0 +1,23 @@
+{
+  "name": "practice-1",
+  "version": "0.0.1",
+  "description": "First demonstration",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MUHAMMADFARHAN1/NodeJs_Practice1.git"
+  },
+  "keywords": [
+    "practice"
+  ],
+  "author": "Muhammad Farhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MUHAMMADFARHAN1/NodeJs_Practice1/issues"
+  },
+  "homepage": "https://github.com/MUHAMMADFARHAN1/NodeJs_Practice1#readme"
+}
