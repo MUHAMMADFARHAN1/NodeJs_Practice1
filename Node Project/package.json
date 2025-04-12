@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/MUHAMMADFARHAN1/NodeJs_Practice1/issues"
   },
-  "homepage": "https://github.com/MUHAMMADFARHAN1/NodeJs_Practice1#readme"
+  "homepage": "https://github.com/MUHAMMADFARHAN1/NodeJs_Practice1#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
