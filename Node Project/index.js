@@ -49,4 +49,28 @@ console.log(sortingByName);
 const sortingByAge = _.sortBy(elements, "age");
 console.log(sortingByAge);
 
-////////////////////////////////////////////Part 4////////////////////////////////////////
+////////////////////////////////////////////Part 4 - File Operations////////////////////////////////////////
+import fs from "fs";
+import path from "path";
+
+////////////////////////////////////////////Read File//////////////////////////////////
+//let location = path.resolve("./", "Sample.txt");
+let location = path.resolve("Sample");
+
+fs.readFile(location, "utf-8", (err, data) => {
+  if (err) console.log("Reading file failed");
+  console.log(data);
+});
+
+///////////////////////////////////////////Write File///////////////////////////////////
+location = path.resolve("created_file.txt");
+
+// Creating a file that already exists will override the file content
+fs.writeFile(location, "This is the file I created!", (err) => {
+  if (err) console.log(err);
+});
+
+///////////////////////////////////////////Append File////////////////////////////////////
+fs.appendFile(location, "\nNew content which i added now!", (err) => {
+  if (err) console.log("Writing file failed");
+});
