@@ -24,3 +24,7 @@ console.log(listOfNumbers);
 var list = [1, 2, 3, 4, 5];
 var result = _.shuffle(list);
 console.log(result);
+
+var numbers = [1, 2, 2, 4];
+var result = _.uniq(numbers);
+console.log(result);
