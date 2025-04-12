@@ -15,6 +15,7 @@
     "practice"
   ],
   "author": "Muhammad Farhan",
+  "type": "module",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MUHAMMADFARHAN1/NodeJs_Practice1/issues"
